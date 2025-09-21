@@ -257,7 +257,7 @@ class Vector:
         return math.sqrt(self.mag2(Gij))
 
     def __cmp__(self, other):
-        "Comparson, used to implement ==, <, etc."
+        "Comparison, used to implement ==, <, etc."
 
         if self.dim == other.dim:
             if self.vector == other.vector:
