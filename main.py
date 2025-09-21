@@ -1,4 +1,4 @@
-from rational import *
+from rational import Rational, rat, ratOrInt
 from vector import *
 
 def main():
